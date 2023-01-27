@@ -24,13 +24,10 @@ int main(int argc, char *argv[]) {
       j++;
     }
   }
-
+N = j;
   if (N == 0)
     printf("No prime\n");
   else {
-    N = j;
-    int i, j, new_number;
-    // 3 2 6 7 3 1
     display(prime, N);
     bubbleSort(prime, N);
     // insertion(a,N);
