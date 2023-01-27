@@ -1,5 +1,5 @@
 // selection sort function module in C
-
+#include <stdio.h>
 void display(int a[], int n) {
 
   int i;
@@ -30,7 +30,6 @@ void bubbleSort(int a[], int n) {
   int sorted;
   // how may pair to compare?
   for (i = 0; i < n-1 ; i++) {
-    printf("[Round %d]\n",i);
     sorted =0 ;
     for (j = 0; j <n-1-i; j++) {
       if (a[j] > a[j + 1]) {
